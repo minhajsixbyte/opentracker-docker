@@ -14,7 +14,7 @@ This will bind the port `6969` to the docker container (UDP and TCP) and you're 
 
 ## How to run a _customized_ opentracker instance
 
-If you want to config your opentracker instance, just download or `git clone` the [github repository](https://github.com/Lednerb/opentracker-docker/) and edit the `opentracker.conf` file.
+If you want to config your opentracker instance, just download or `git clone` the [github repository](https://github.com/minhajsixbyte/opentracker-docker/) and edit the `opentracker.conf` file.
 
 Now you have to build your own image as follows:
  1. Edit and save the `opentracker.conf` file
@@ -30,7 +30,7 @@ After building the docker image successfully you can start up a container:
 If you solely want to run the opentracker instance for specific torrents you have to whitelist them.
 
 Follow these steps to whitelist your .torrent files:
- 1. Download or `git clone` the [github repository](https://github.com/Lednerb/opentracker-docker/)
+ 1. Download or `git clone` the [github repository](https://github.com/minhajsixbyte/opentracker-docker/)
  2. Open the `whitelist.txt` file in your favorite editor
  3. Copy & Paste your torrent `info_hashes` into the file
  4. Uncomment line 37 in the `opentracker.conf`
